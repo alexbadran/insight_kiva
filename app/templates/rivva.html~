@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+    <title>Analytics Management Console</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+<meta name="awsc-mezz" content="1">
+<meta id="awsc-mezz-region" name="awsc-mezz-region" content="us-east-1">
+<meta id="awsc-mezz-locale" name="awsc-mezz-locale" content="en">
+<meta id="awsc-mezz-fb" name="awsc-mezz-fb" content="0">
+<meta id="awsc-signin-endpoint" name="awsc-signin-endpoint" content="signin.aws.amazon.com">
+
+<meta id="awsc-enable-switchrole-username-menu" name="awsc-enable-switchrole-username-menu" content="1">
+<meta id="awsc-enable-auth-change-detect" name="awsc-enable-auth-change-detect" content="1">
+
+
+<style type="text/css">
+html, body, #b, #cc {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#b {
+  position: relative;
+  min-height: 100%;
+}
+
+#cc {
+  padding-bottom: 60px;
+}
+
+#h, #f {
+  overflow: hidden;
+}
+
+#f {
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+#f #consoleNavFooter #footer-content {
+  padding: 10px 0;
+  margin: 0 30px;
+  border-top: 1px solid #ccc;
+}
+
+#consoleNavFooter {
+  margin-top: 9px;
+}
+
+#h #awsgnav #nav-menubar {
+  margin: 0 0 0px;
+}
+
+</style>
+
+<link rel="stylesheet" type="text/css" href="https://d2q66yyjeovezo.cloudfront.net/css/menu-2kjdfskljflksdfjk/globalnav-592d649356eaab52bad63566a16b1a080e87932a.gz.css" charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="https://d2q66yyjeovezo.cloudfront.net/css/mezz-35gbnwov975sjdhcbsf/custsat-f0b6fa7965c2bff322b5089190025df0297eb818.gz.css" charset="utf-8">
+<script type="text/javascript" src="https://d2q66yyjeovezo.cloudfront.net/js/mezz-35gbnwov975sjdhcbsf/mezz-49a0cbe15162abf8d5a2435d7746d083d760e5fa.gz.js" charset="utf-8"></script>
+
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google" content="notranslate">
+        <link rel="icon" type="image/ico" href="https://awsmedia.s3.amazonaws.com/favicon.ico"/>
+        <link rel="shortcut icon" type="image/ico" href="https://awsmedia.s3.amazonaws.com/favicon.ico"/>
+        <style type="text/css">
+            @font-face {
+                font-family: 'aws-console';
+                font-style: normal;
+                font-weight: normal;
+                src: url("https://s3.amazonaws.com/aws-analytics-console-cdn-prod/fonts/aws-console.eot"<https://s3.amazonaws.com/aws-analytics-console-cdn-prod/fonts/aws-console.eot%22>);
+                src: url("https://s3.amazonaws.com/aws-analytics-console-cdn-prod/fonts/aws-console.eot?#iefix") format('eot'), /* IE6-IE8 */
+                url("https://s3.amazonaws.com/aws-analytics-console-cdn-prod/fonts/aws-console.woff"<https://s3.amazonaws.com/aws-analytics-console-cdn-prod/fonts/aws-console.woff%22>) format('woff'), /* Modern browsers */
+                url("https://s3.amazonaws.com/aws-analytics-console-cdn-prod/fonts/aws-console.ttf"<https://s3.amazonaws.com/aws-analytics-console-cdn-prod/fonts/aws-console.ttf%22>)  format('truetype'), /* Safari, Android, iOS */
+                url("https://s3.amazonaws.com/aws-analytics-console-cdn-prod/fonts/aws-console.svgz#awsconsoleregular") format('svg');
+            }
+
+        </style>
+        <script type="text/javascript">
+            var AWSConsoleMetrics = {startTime: new Date().getTime()};
+            window.ANALYTICS_GLOBAL_VARS = {
+                CLIENT_IP: '67.180.74.190',
+                ONE_CLICK_BASE_URI: 'https://console.aws.amazon.com/iam/home',
+                MAX_DATE: '2015-01-19',
+                AWS_ACCOUNT_ID: '759232444912',
+                IS_ROOT: true,
+                IN_PRIVATE_BETA: false
+            };
+        </script>
+        
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://d6xlb9fjvimcz.cloudfront.net/css/analyticsconsole_prod_vc643217d2b5fbd6bc7e0bc7416331354c47f4625.gz.css"/>
+
+
+
+        
+
+    
+</head>
+<body>
+  <div id="b">
+    <div id="h">
+
+<div id="awsc-custsat" class="prompt" style="display: none">
+    <p id="awsc-custsat-question" class="awsc-custsat-message"></p>
+
+    <div id="awsc-custsat-rating">
+        <!-- Formatting this way to avoid new lines between elements -->
+        <!-- Source: http://css-tricks.com/fighting-the-space-between-inline-block-elements/ -->
+        <button class="awsc-custsat-star" data-awsc-custsat-rating="1"></button
+        ><button class="awsc-custsat-star" data-awsc-custsat-rating="2"></button
+        ><button class="awsc-custsat-star" data-awsc-custsat-rating="3"></button
+        ><button class="awsc-custsat-star" data-awsc-custsat-rating="4"></button
+        ><button class="awsc-custsat-star" data-awsc-custsat-rating="5"></button>
+    </div>
+
+    <p id="awsc-custsat-thanks" class="awsc-custsat-message"></p>
+
+    <button id="awsc-custsat-close">&#215;</button>
+</div>
+
+<div class="awsc-header-prefix"></div>
+<div id="consoleNavHeader"></div>
+
+</div>
+<div id="cc">
+  <div id="c">
+
+
+        <div class="container-fluid">
+            <div ui-view></div>
+        </div>
+        <noscript>
+          <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+            Your web browser must have JavaScript enabled in order for this application to display correctly.
+          </div>
+        </noscript>
+        
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://d6xlb9fjvimcz.cloudfront.net/js/analyticsconsole_prod_v78924d3fbb5e39df164577827618af7e9d589da1.gz.js"></script>
+
+
+
+        
+    
+</div>
+</div>
+<div id="f">
+
+<div id="footer">
+    <div id="consoleNavFooter"></div>
+</div>
+<div class="awsc-footer-suffix"></div>
+
+</div>
+</div>
+
+<script type="text/javascript" src="https://d2q66yyjeovezo.cloudfront.net/js/menu-2kjdfskljflksdfjk/globalnav-7f340200c011adf327cad5ea0a864041fa7de152.gz.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://d2q66yyjeovezo.cloudfront.net/js/mezz-35gbnwov975sjdhcbsf/mezz-e103d5faaabe1ae0c60d839ce1a7d0d4f6820305.gz.js" charset="utf-8"></script>
+
+
+<script type="text/javascript" src="https://d2q66yyjeovezo.cloudfront.net/js/mezz-35gbnwov975sjdhcbsf/custsat-b5831b7305a512bb6a87bf2e718ca3466325fb78.gz.js" charset="utf-8" async></script>
+<script type="text/javascript" src="https://d36cz9buwru1tt.cloudfront.net/amznUrchin.js" async></script>
+
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,31 @@
+from flask import render_template
+
+from app import app
+
+import pymysql as mdb
+
+db = mdb.connect(user="root", host="localhost", db="dbKiva_Loans", charset='utf8')
+
+@app.route('/')
+@app.route('/index')
+
+def index():
+    return render_template("index.html",
+       title = 'Home', user = { 'nickname': 'Miguel' },
+       )
+
+@app.route("/db_Kiva")
+
+def Kiva_page_fancy():
+
+    with db:
+        cur = db.cursor()
+        cur.execute("SELECT * FROM dfTest LIMIT 15")
+        query_results = cur.fetchall()
+
+    loans = []
+
+    for result in query_results:
+        loans.append(dict(name=result[2], country=result[3], population=result[4]))
+
+    return render_template('index_db.html', loans=loans) 
